@@ -47,3 +47,15 @@ Route::get('/new', function(){
 Route::get('/page', function(){
     return view('page');
 })->name('page');
+
+Route::get('/schedule',function(){
+    return view('schedule');
+});
+
+Route::get('/register',function(){
+    return view('register');
+});
+
+Route::get('/venue',function(){
+    return view('venue');
+});

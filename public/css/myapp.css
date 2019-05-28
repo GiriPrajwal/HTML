@@ -106,7 +106,9 @@ tfoot tr:last-child {
   tfoot tr:last-child td:last-child {
     border-bottom-right-radius: 5px;
   }
-.para{
+
+
+.hotdog p.para{
     color:orange;
     font-size:16 px;
 }

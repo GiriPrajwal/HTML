@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<div class="container-fluid bg-light">
+<div class="container-fluid hotdog bg-light">
     @csrf
     <div class="container">
 
@@ -10,13 +10,15 @@
                 <h3>August 24&ndash;26th &mdash; Chicago, IL</h3>
             </header>
             <a href="http://shayhowe.com">Shay</a>
-            <a href="https://www.python.org/downloads/">Python</a>
-            <a href="https://github.com/falconry/falcon">Falcon</a>
+            <a href="/register">Register</a>
+            <a href="/venue">Venue</a>
+            <a href="/schedule">Schedule</a>
+
 
             <section>
                 <section>
                     <h2>Dedicated to the Craft of Building Websites</h2>
-                    <p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
+                    <p class="para">Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
                 </section>
                 <section>
                     <h5>Speakers</h5>
