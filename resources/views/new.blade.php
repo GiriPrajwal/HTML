@@ -1,12 +1,44 @@
 @extends('layouts.app')
 @section('content')
-
 <div class="container-fluid test bg-light">
     @csrf
     <div class="container">
     <h3 class="text-center text-white pt-4">CITYLIGHTS</h3>
     </div>
 </div>
+<header class="primary headercontainer group">
+
+    <h1 class="hd">
+      <a class="nav-link">Styles <br> Conference</a>
+    </h1>
+
+    <h3 class="tagline">August 24–26th — Bengaluru, KA</h3>
+
+    <nav class="nav primary-nav abc justify-content-end">
+      <ul>
+        <li class="nav-item">
+            <a class="nav-link" href="/schedule">Schedule</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/venue">Venue</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/register">Register</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+  <section class="row-alt">
+    <div class="lead container">
+
+      <h1>Venue</h1>
+
+      <p>The conference is held at The Chicago Theatre, a beautiful historical landmark. The conference hotel, Hotel Chicago, is a short walk away down State Street.</p>
+
+    </div>
+  </section>
 <div class="container-fluid">
     <div class="container">
         <div class="row">
